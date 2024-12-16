@@ -32,7 +32,7 @@ class Car:
         if lead:
             self.distance_to_car = (lead.rel_pos - self.rel_pos )
         else:
-            self.distance_to_car = np.infty
+            self.distance_to_car = np.inf
         #print(distance_to_car)
 
         #Under the green light we follow the NS model, where the car first accelerates
